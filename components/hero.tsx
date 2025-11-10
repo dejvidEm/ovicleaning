@@ -41,16 +41,17 @@ export function Hero() {
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold mb-8 text-balance leading-tight">
           <span className="text-foreground">Prémiové</span>
           <br />
-          <AuroraText 
+          <AuroraText
+          speed={4}
             className="inline-block"
             colors={["#FFD700", "#FFA500", "#FFC107", "#F4D03F", "#F7DC6F"]}
           >
             Detailingové
           </AuroraText>
-          <span className="text-primary"> Služby</span>
+          <span className=""> Služby</span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto text-pretty leading-relaxed">
-          Profesionálne nálepky, hĺbkové čistenie a kompletná príprava auta na predaj
+          Profesionálne PPF fólie, hĺbkové čistenie a kompletné leštenie laku vozidla
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
@@ -66,7 +67,7 @@ export function Hero() {
           <Button
             size="lg"
             variant="outline"
-            className="text-lg px-10 py-7 border-0 bg-background/50 backdrop-blur text-foreground hover:bg-background/70"
+            className="text-lg px-10 py-7 border-0 bg-background/50 backdrop-blur text-foreground hover:bg-background/70 hover:text-primary"
             onClick={() => {
               const element = document.getElementById('services')
               element?.scrollIntoView({ behavior: 'smooth' })

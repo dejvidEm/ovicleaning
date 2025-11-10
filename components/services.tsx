@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card"
 
 const services = [
   {
-    title: "Vlastné Autonálepky",
+    title: "Vlastné PPF fólie",
     description: "Profesionálne vinylové polepy a vlastné nálepky na personalizáciu a ochranu vášho vozidla",
     image: "/car-vinyl-wrap-sticker-application.jpg",
   },
@@ -15,8 +15,8 @@ const services = [
     image: "/car-deep-cleaning-interior-detailing.jpg",
   },
   {
-    title: "Príprava na Predaj",
-    description: "Kompletná služba prípravy auta na maximalizáciu predajnej hodnoty a prilákanie kupcov",
+    title: "Strojové leštenie",
+    description: "Kompletná služba leštenia laku vozidla na zrkadlový lesk",
     image: "/car-preparation-for-sale-polishing.jpg",
   },
 ]
