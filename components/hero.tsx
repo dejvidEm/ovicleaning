@@ -45,7 +45,7 @@ export function Hero() {
             className="inline-block"
             colors={["#FFD700", "#FFA500", "#FFC107", "#F4D03F", "#F7DC6F"]}
           >
-            OviCleaning
+            Detailingové
           </AuroraText>
           <span className="text-primary"> Služby</span>
         </h1>
