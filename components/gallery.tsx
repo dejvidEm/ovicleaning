@@ -5,47 +5,47 @@ import { Card } from "@/components/ui/card"
 
 const galleryItems = [
   {
-    image: "/car-detailing-before-after-exterior.jpg",
+    image: "/photos/1.jpg",
     title: "Transformácia Exteriéru",
     description: "Pred a po - kompletná obnova vzhľadu vozidla",
   },
   {
-    image: "/car-interior-leather-cleaning-detail.jpg",
+    image: "/photos/2.jpg",
     title: "Čistenie Kože",
     description: "Profesionálne ošetrenie kožených sedadiel",
   },
   {
-    image: "/car-paint-correction.png",
+    image: "/photos/3.jpg",
     title: "Korekcia Laku",
     description: "Odstránenie škrabancov a obnova lesku",
   },
   {
-    image: "/car-ceramic-coating.png",
+    image: "/photos/4.jpg",
     title: "Keramický Povlak",
     description: "Dlhodobá ochrana laku vozidla",
   },
   {
-    image: "/luxury-car-engine-bay-cleaning.jpg",
+    image: "/photos/5.jpg",
     title: "Čistenie Motorového Priestoru",
     description: "Dôkladné čistenie a ošetrenie",
   },
   {
-    image: "/car-headlight-restoration-before-after.jpg",
+    image: "/photos/6.jpg",
     title: "Obnova Svetlometov",
     description: "Vrátenie pôvodnej priehľadnosti",
   },
   {
-    image: "/car-paint-correction-polish.jpg",
+    image: "/photos/7.jpg",
     title: "Leštenie Laku",
     description: "Profesionálne leštenie na zrkadlový lesk",
   },
   {
-    image: "/luxury-car-interior-cleaning-leather.jpg",
+    image: "/photos/8.jpg",
     title: "Hĺbkové Čistenie Interiéru",
     description: "Kompletná sanitácia a ošetrenie",
   },
   {
-    image: "/car-vinyl-wrap-custom-design.jpg",
+    image: "/photos/1.jpg",
     title: "Vlastný Vinylový Polep",
     description: "Jedinečný dizajn podľa vašich predstáv",
   },

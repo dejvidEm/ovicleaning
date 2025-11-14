@@ -48,9 +48,7 @@ export function About() {
                 visibleElements.has(1) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              S viac ako 10-ročnou skúsenosťou v autodetailingu sme si vybudovali povesť poskytovaním
-              výnimočných výsledkov, ktoré prekračujú očakávania. Náš tím certifikovaných profesionálov používa iba prémiové
-              produkty a najmodernejšie techniky, aby zabezpečil, že vaše vozidlo vyzerá absolútne najlepšie.
+              Sme detailingové štúdio s viacročnou praxou, v ktorom sa postaráme o vaše vozidlo.
             </p>
             <p
               data-index="2"
@@ -58,14 +56,30 @@ export function About() {
                 visibleElements.has(2) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Či už hľadáte ochranu vašej investície pomocou vlastných nálepiek, obnovenie výstavného lesku vášho auta
-              hĺbkovým čistením, alebo prípravu vášho vozidla na predaj pre maximalizáciu jeho hodnoty, máme odbornosť a
-              vášeň na poskytnutie vynikajúcich výsledkov zakaždým.
+              Či už hľadáte čistenie vozidla, kompletný detailing, ochranu auta alebo len radu, čo spraviť s vaším autom, neváhajte nás kontaktovať – radi vám pomôžeme a vyberieme službu šitú na mieru.
+            </p>
+            <div className="w-64 h-px bg-yellow-500/60 my-8" />
+            <p
+              data-index="3"
+              className={`text-pretty transition-all duration-700 delay-450 ${
+                visibleElements.has(3) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              }`}
+            >
+              Každému autu venujeme individuálny prístup a používame len kvalitné produkty, ktoré zaručujú dlhodobý výsledok. Okrem čistenia ponúkame aj leštenie laku, keramickú ochranu či renováciu svetiel.
+            </p>
+            <div className="w-64 h-px bg-yellow-500/60 my-8" />
+            <p
+              data-index="4"
+              className={`text-pretty transition-all duration-700 delay-600 ${
+                visibleElements.has(4) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              }`}
+            >
+              Naša práca je našou vášňou a spokojnosť zákazníka je pre nás vždy na prvom mieste.
             </p>
             <div
-              data-index="3"
-              className={`grid md:grid-cols-3 gap-12 pt-12 transition-all duration-700 delay-500 ${
-                visibleElements.has(3) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              data-index="5"
+              className={`grid md:grid-cols-3 gap-12 pt-12 transition-all duration-700 delay-750 ${
+                visibleElements.has(5) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
               <div className="text-center">
