@@ -56,7 +56,7 @@ export function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             size="lg"
-            className="text-lg px-10 py-7 bg-primary text-primary-foreground hover:bg-primary/90 font-medium"
+            className="text-lg px-10 py-7 bg-primary text-primary-foreground hover:bg-primary/90 font-medium rounded-full"
             onClick={() => {
               const element = document.getElementById('contact')
               element?.scrollIntoView({ behavior: 'smooth' })
@@ -67,7 +67,7 @@ export function Hero() {
           <Button
             size="lg"
             variant="outline"
-            className="text-lg px-10 py-7 border-0 bg-background/50 backdrop-blur text-foreground hover:bg-background/70 hover:text-primary"
+            className="text-lg px-10 py-7 border-0 bg-background/50 backdrop-blur text-foreground hover:bg-background/70 hover:text-primary rounded-full"
             onClick={() => {
               const element = document.getElementById('services')
               element?.scrollIntoView({ behavior: 'smooth' })
