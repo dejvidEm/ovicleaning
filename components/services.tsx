@@ -127,7 +127,7 @@ export function Services() {
           >
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <img
-                src="/photos/4.jpg"
+                src="/own_photos/img_3.jpeg"
                 alt="Čistenie vozidla"
                 className="w-full h-full object-cover"
               />
@@ -159,7 +159,7 @@ export function Services() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden order-1 md:order-2">
               <img
-                src="/photos/5.jpg"
+                src="/own_photos/img_4.jpeg"
                 alt="Strojové leštenie"
                 className="w-full h-full object-cover"
               />
@@ -175,7 +175,7 @@ export function Services() {
           >
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <img
-                src="/photos/6.jpg"
+                src="/own_photos/img_2.jpeg"
                 alt="Keramická ochrana"
                 className="w-full h-full object-cover"
               />
@@ -207,7 +207,7 @@ export function Services() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden order-1 md:order-2">
               <img
-                src="/photos/7.jpg"
+                src="/own_photos/img_5.jpeg"
                 alt="PPF fólia"
                 className="w-full h-full object-cover"
               />

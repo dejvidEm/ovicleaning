@@ -64,7 +64,7 @@ const packages = [
 const ppfPackages = [
   {
     name: "PPF Čiastočný",
-    price: "od 800€",
+    price: "od 500€",
     features: [
       "PPF na predný nárazník",
       "PPF na kapotu",
@@ -76,7 +76,7 @@ const ppfPackages = [
   },
   {
     name: "PPF Kompletný",
-    price: "od 2000€",
+    price: "od 1500€",
     features: [
       "PPF na celé vozidlo",
       "Všetky kritické plochy",
