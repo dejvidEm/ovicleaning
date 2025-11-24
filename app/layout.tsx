@@ -8,9 +8,12 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "OviCleaning - Premium Car Detailing Services",
-  description: "Professional car stickers, deep cleaning, and pre-sale preparation services",
+  title: "Ovicleaning s. r. o. - Premium Car Detailing & PPF Film Services",
+  description: "Professional car treatment",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon/favicon.ico",
+  },
 }
 
 export default function RootLayout({

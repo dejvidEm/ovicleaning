@@ -4,7 +4,7 @@ export function Footer() {
       {/* Full-width Map */}
       <div className="w-full h-96">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2412648718453!2d-73.98784368459395!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+          src="https://www.google.com/maps?q=%C4%8Cere%C5%A1%C5%88ov%C3%A1+378%2F26+941+23+Andovce&output=embed&hl=sk"
           width="100%"
           height="100%"
           style={{ border: 0 }}
@@ -69,16 +69,17 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-6 text-foreground">Kontakt</h4>
             <ul className="space-y-3 text-muted-foreground">
-              <li>123 OviCleaning ulica</li>
-              <li>Auto Mesto, AM 12345</li>
-              <li>+421 912 123 456</li>
-              <li>info@ovicleaning.sk</li>
+              <li>Ovicleaning s. r. o.</li>
+              <li>Čerešňová 378/26</li>
+              <li>941 23 Andovce</li>
+              <li>0944 487 521</li>
+              <li>csuvara57@gmail.com</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border mt-16 md:mt-20 pt-10 md:pt-12 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} OviCleaning. Všetky práva vyhradené.</p>
+          <p>&copy; {new Date().getFullYear()} Ovicleaning s. r. o. Všetky práva vyhradené.</p>
         </div>
       </div>
     </footer>

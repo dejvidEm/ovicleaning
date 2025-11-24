@@ -110,7 +110,7 @@ export function ContactForm() {
                 <Input
                   id="phone"
                   type="tel"
-                  placeholder="+421 912 123 456"
+                  placeholder="0944 487 521"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   className="bg-secondary/50 border-0 text-foreground h-12"
@@ -153,7 +153,8 @@ export function ContactForm() {
                   <div>
                     <div className="font-medium text-foreground mb-1">Adresa</div>
                     <div className="text-muted-foreground leading-relaxed">
-                      123 OviCleaning ulica, Auto Mesto, AM 12345
+                      Ovicleaning s. r. o.<br />
+                      Čerešňová 378/26 941 23 Andovce
                     </div>
                   </div>
                 </div>
@@ -161,14 +162,14 @@ export function ContactForm() {
                   <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <div className="font-medium text-foreground mb-1">Telefón</div>
-                    <div className="text-muted-foreground">+421 912 123 456</div>
+                    <div className="text-muted-foreground">0944 487 521</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <div className="font-medium text-foreground mb-1">Email</div>
-                    <div className="text-muted-foreground">info@ovicleaning.sk</div>
+                    <div className="text-muted-foreground">csuvara57@gmail.com</div>
                   </div>
                 </div>
               </div>

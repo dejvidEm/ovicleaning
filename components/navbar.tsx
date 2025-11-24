@@ -50,11 +50,11 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+421912123456"
+              href="tel:0944487521"
               className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors duration-200 font-medium text-sm"
             >
               <Phone className="h-4 w-4" />
-              <span>+421 912 123 456</span>
+              <span>0944 487 521</span>
             </a>
           </div>
 
@@ -79,12 +79,12 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="tel:+421912123456"
+                href="tel:0944487521"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors duration-200 font-medium py-2"
                 onClick={() => setIsOpen(false)}
               >
                 <Phone className="h-5 w-5" />
-                <span>+421 912 123 456</span>
+                <span>0944 487 521</span>
               </a>
             </div>
           </div>
