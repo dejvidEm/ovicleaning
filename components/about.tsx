@@ -85,7 +85,7 @@ export function About() {
               <div className="text-center">
                 <div className="text-5xl font-semibold mb-3">
                   <NumberTicker 
-                    value={10} 
+                    value={3} 
                     className="text-5xl font-semibold" 
                     style={{ color: 'oklch(0.85 0.15 95)' }}
                   />+
@@ -95,7 +95,7 @@ export function About() {
               <div className="text-center">
                 <div className="text-5xl font-semibold mb-3">
                   <NumberTicker 
-                    value={5000} 
+                    value={500} 
                     className="text-5xl font-semibold" 
                     style={{ color: 'oklch(0.85 0.15 95)' }}
                   />+
