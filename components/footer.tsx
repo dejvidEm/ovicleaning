@@ -73,7 +73,7 @@ export function Footer() {
               <li>Čerešňová 378/26</li>
               <li>941 23 Andovce</li>
               <li>0944 487 521</li>
-              <li>csuvara57@gmail.com</li>
+              <li>ovicleaningsro@gmail.com</li>
             </ul>
           </div>
         </div>
