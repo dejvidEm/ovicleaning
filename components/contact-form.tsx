@@ -169,7 +169,7 @@ export function ContactForm() {
                   <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <div className="font-medium text-foreground mb-1">Email</div>
-                    <div className="text-muted-foreground">csuvara57@gmail.com</div>
+                    <div className="text-muted-foreground">ovicleaningsro@gmail.com</div>
                   </div>
                 </div>
               </div>

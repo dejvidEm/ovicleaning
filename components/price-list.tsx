@@ -217,7 +217,7 @@ export function PriceList() {
             visibleElements.has(6) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Ochrana laku pomocou profesionálnych PPF fólií proti kameňom, škrabankom a poveternostným vplyvom
+          Ochrana laku pomocou profesionálnych PPF fólií proti kameňom, škrabancom a poveternostným vplyvom
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto mb-20">
